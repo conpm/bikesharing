@@ -9,27 +9,27 @@ In order to perform the analysis, citibike data from the month of August in New 
 ### Overview of rides in NYC in August
 
 #### Total Rides
-![Total_Rides]()
+![Total_Rides](https://github.com/conpm/bikesharing/blob/main/Analysis/Total_Rides.PNG)
 - This dashboard shows two basic visualizations, one simply showing the total ride count in NYC in the month of August, and one showing the distribution of rides based on the time of day they were taken.
 
 #### Ride Count vs Trip Duration
-![Ride_Count_vs_Duration]()
+![Ride_Count_vs_Duration](https://github.com/conpm/bikesharing/blob/main/Analysis/Ride_Count_vs_Duration.PNG)
 - This visualization shows the number of bikes used based on the duration of the trip.  It shows that the vast majority trips last for less than 20 minutes and that the most common duration for a trip is around 5 min.
 
 #### Ride Count vs Weekdays
-![Rides_vs_Weekdays]()
+![Rides_vs_Weekdays](https://github.com/conpm/bikesharing/blob/main/Analysis/Rides_vs_Weekdays.PNG)
 - This visualization serves as a deeper look at the initial visualization of trips based on time of day.  In this visual we can see how the distribution of trips throughout the day changes between different days of the week.  Notably, the distribution is similar from Monday - Friday, while there is lower peak usage during the weekends.  Additionally, the peaks are during commuting hours on the weekdays, but during the weekends, the peaks take place during traditional working hours.
 
 #### Gender Breakdown
-![Gender_Breakdown]()
+![Gender_Breakdown](https://github.com/conpm/bikesharing/blob/main/Analysis/Gender_Breakdown.PNG)
 - This dashboard displays 3 different visuals, the primary new visual is the gender breakdown pie chart which shows the distribution of total rides based on gender.  The other two visuals in this dashboard serve as deeper analyses of the previous two visuals ('Ride Count vs Trip Duration' and 'Ride Count vs Weekdays').  This version of those visuals breaks down the total ride counts to show the ride counts for each gender separately.  Additionally, in the Tableau Public story for this dashboard, you can select one of the genders to have it highlight the specific data for the selected gender.
 
 #### Usertype Breakdown
-![User_Breakdown]()
+![User_Breakdown](https://github.com/conpm/bikesharing/blob/main/Analysis/User_Breakdown.PNG)
 - This visualization breaks down the total ride count based on three different criteria, those being weekday, gender, and usertype.  This chart shows gender and weekday trends that reflect previous data.  In addition, this visualization shows that the majority of users of the bike sharing service are subscribers rather than one time customers.  This means that most of the people who use the bike sharing service likely use it regularly.
 
 #### Starting and Ending Locations
-![Starting_Ending]()
+![Starting_Ending](https://github.com/conpm/bikesharing/blob/main/Analysis/Starting_Ending.PNG)
 - This final visualization shows the starting and ending locations of bike sharing rides, with larger and darker points showing higher numbers of rides.  Using these maps we can see that most of the rides both start and end in urban centers.
 
 ## Summary
